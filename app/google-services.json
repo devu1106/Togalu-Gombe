@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711091015135",
+    "project_id": "togalu-gombe-ai-guide",
+    "storage_bucket": "togalu-gombe-ai-guide.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711091015135:android:e8496a1096957ce4ea886a",
+        "android_client_info": {
+          "package_name": "com.togalugombe.aiguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBehH8uM42NjhhU3K8LAAK7eKDU5lojCMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

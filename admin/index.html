@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Togalu Gombe AI Guide - Admin Control Center</title>
+  <!-- Typography & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- TOAST NOTIFICATIONS -->
+  <div id="toast-container"></div>
+
+  <!-- SCREEN 1: FIREBASE CONFIG SETUP (USER-FRIENDLY UTILITY) -->
+  <div id="setup-screen" class="auth-screen hidden">
+    <div class="glass-card auth-card">
+      <div class="auth-header">
+        <div class="logo-circle">
+          <i class="fa-solid fa-triangle-exclamation gold-glow"></i>
+        </div>
+        <h2>Configure Firebase Connection</h2>
+        <p>No Firebase configuration found. Please supply your credentials to start managing the Togalu Gombe AI Guide.</p>
+      </div>
+      <form id="setup-form">
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="setup-apiKey">API Key <span class="required">*</span></label>
+            <input type="text" id="setup-apiKey" placeholder="AIzaSy..." value="AIzaSyBehH8uM42NjhhU3K8LAAK7eKDU5lojCMk" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-authDomain">Auth Domain <span class="required">*</span></label>
+            <input type="text" id="setup-authDomain" placeholder="your-app.firebaseapp.com" value="togalu-gombe-ai-guide.firebaseapp.com" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-projectId">Project ID <span class="required">*</span></label>
+            <input type="text" id="setup-projectId" placeholder="your-app-id" value="togalu-gombe-ai-guide" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-storageBucket">Storage Bucket <span class="required">*</span></label>
+            <input type="text" id="setup-storageBucket" placeholder="your-app.appspot.com" value="togalu-gombe-ai-guide.firebasestorage.app" required>
+          </div>
+          <div class="form-group">
+            <label for="setup-messagingSenderId">Messaging Sender ID</label>
+            <input type="text" id="setup-messagingSenderId" placeholder="1234567890" value="711091015135">
+          </div>
+          <div class="form-group">
+            <label for="setup-appId">App ID <span class="required">*</span></label>
+            <input type="text" id="setup-appId" placeholder="1:1234:web:abcd" value="1:711091015135:android:e8496a1096957ce4ea886a" required>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-gold w-100 mt-2">
+          <i class="fa-solid fa-plug"></i> Save & Connect Database
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- SCREEN 2: ADMIN LOGIN -->
+  <div id="login-screen" class="auth-screen hidden">
+    <div class="glass-card auth-card">
+      <div class="auth-header">
+        <div class="logo-shadow-art">
+          <i class="fa-solid fa-masks-theater gold-text"></i>
+        </div>
+        <h1>Togalu Gombe</h1>
+        <p class="subtitle gold-text">AI Guide Admin Console</p>
+        <span class="badge badge-warning"><i class="fa-solid fa-lock"></i> Authorised Access Only</span>
+      </div>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">Admin Email Address</label>
+          <div class="input-with-icon">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="login-email" placeholder="admin@togalugombe.com" required autocomplete="username">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <div class="input-with-icon">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" id="login-password" placeholder="••••••••" required autocomplete="current-password">
+          </div>
+        </div>
+        <div class="form-utility">
+          <button type="button" class="btn-text" id="btn-reset-db"><i class="fa-solid fa-rotate-left"></i> Reconfigure DB</button>
+        </div>
+        <button type="submit" class="btn btn-gold w-100" id="btn-login-submit">
+          <span class="btn-label">Login to Dashboard</span>
+          <span class="spinner hidden"></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: ADMIN MAIN DASHBOARD SHELL -->
+  <div id="app-shell" class="app-shell hidden">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">
+          <i class="fa-solid fa-masks-theater gold-text"></i>
+        </div>
+        <div class="brand-text">
+          <h2>Togalu Gombe</h2>
+          <span class="gold-text uppercase font-xs tracking-wide">AI Control Center</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-menu">
+        <a href="#" class="menu-item active" data-target="section-dashboard">
+          <i class="fa-solid fa-chart-line"></i> <span>Dashboard</span>
+        </a>
+        <a href="#" class="menu-item" data-target="section-plays">
+          <i class="fa-solid fa-circle-play"></i> <span>Plays Management</span>
+        </a>
+        <a href="#" class="menu-item" data-target="section-scenes">
+          <i class="fa-solid fa-film"></i> <span>Scenes Management</span>
+        </a>
+        <a href="#" class="menu-item" data-target="section-puppets">
+          <i class="fa-solid fa-users-viewfinder"></i> <span>Puppets Registry</span>
+        </a>
+        <a href="#" class="menu-item" data-target="section-artists">
+          <i class="fa-solid fa-hands-holding-child"></i> <span>Artist Connect</span>
+        </a>
+        <a href="#" class="menu-item" data-target="section-history">
+          <i class="fa-solid fa-scroll"></i> <span>History Feed</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="admin-profile">
+          <div class="profile-avatar"><i class="fa-solid fa-user-shield"></i></div>
+          <div class="profile-info">
+            <span class="profile-name" id="user-display-email">admin@togalugombe.com</span>
+            <span class="profile-role">Super Admin</span>
+          </div>
+        </div>
+        <button id="btn-logout" class="btn btn-danger-outline w-100">
+          <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Topbar Header -->
+      <header class="topbar">
+        <button id="btn-sidebar-toggle" class="sidebar-toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <h1 class="page-title" id="current-page-title">Dashboard</h1>
+        <div class="header-actions">
+          <span class="db-status gold-glow" id="db-connection-badge">
+            <i class="fa-solid fa-circle-check"></i> Connected
+          </span>
+        </div>
+      </header>
+
+      <!-- Dynamic Screen Sections -->
+      <div class="content-body">
+        
+        <!-- SECTION 1: DASHBOARD -->
+        <section id="section-dashboard" class="content-section">
+          <!-- Welcome Message -->
+          <div class="welcome-card glass-card">
+            <div class="welcome-text">
+              <h2>Namaskara, Admin! 👋</h2>
+              <p>Welcome back to the Togalu Gombe AI Guide Control Center. Monitor metrics and coordinate leather puppetry content dynamically.</p>
+            </div>
+            <div class="welcome-visual">
+              <i class="fa-solid fa-sun gold-glow spin-slow"></i>
+            </div>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="stats-grid mt-2">
+            <div class="stat-card glass-card ripple">
+              <div class="stat-icon bg-primary-gold"><i class="fa-solid fa-circle-play"></i></div>
+              <div class="stat-info">
+                <h3>Total Plays</h3>
+                <p class="stat-number" id="stat-plays">0</p>
+              </div>
+            </div>
+            <div class="stat-card glass-card ripple">
+              <div class="stat-icon bg-secondary-amber"><i class="fa-solid fa-film"></i></div>
+              <div class="stat-info">
+                <h3>Total Scenes</h3>
+                <p class="stat-number" id="stat-scenes">0</p>
+              </div>
+            </div>
+            <div class="stat-card glass-card ripple">
+              <div class="stat-icon bg-success-green"><i class="fa-solid fa-users-viewfinder"></i></div>
+              <div class="stat-info">
+                <h3>Puppets Cataloged</h3>
+                <p class="stat-number" id="stat-puppets">0</p>
+              </div>
+            </div>
+            <div class="stat-card glass-card ripple">
+              <div class="stat-icon bg-danger-crimson"><i class="fa-solid fa-scroll"></i></div>
+              <div class="stat-info">
+                <h3>History Posts</h3>
+                <p class="stat-number" id="stat-history">0</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Panels -->
+          <div class="dashboard-panels-grid mt-2">
+            <div class="glass-card p-2 panel">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-bolt gold-text"></i> Quick Creator Actions</h3>
+                <p>Create new cultural elements with direct database integration.</p>
+              </div>
+              <div class="quick-btn-grid mt-1">
+                <button class="btn btn-primary btn-quick-add" data-action="add-play">
+                  <i class="fa-solid fa-circle-play"></i> Add Play
+                </button>
+                <button class="btn btn-warning btn-quick-add" data-action="add-scene">
+                  <i class="fa-solid fa-film"></i> Add Scene
+                </button>
+                <button class="btn btn-success btn-quick-add" data-action="add-puppet">
+                  <i class="fa-solid fa-users-viewfinder"></i> Add Puppet
+                </button>
+                <button class="btn btn-info btn-quick-add" data-action="add-artist">
+                  <i class="fa-solid fa-hands-holding-child"></i> Add Artist
+                </button>
+                <button class="btn btn-danger btn-quick-add" data-action="add-history">
+                  <i class="fa-solid fa-scroll"></i> Create Post
+                </button>
+              </div>
+            </div>
+
+            <div class="glass-card p-2 panel">
+              <div class="panel-header">
+                <h3><i class="fa-solid fa-clock-rotate-left gold-text"></i> Recent Activity Logs</h3>
+                <p>Track updates and state sync statuses.</p>
+              </div>
+              <div class="activity-timeline mt-1" id="dashboard-recent-activity">
+                <div class="timeline-item">
+                  <div class="timeline-bullet bg-success-green"></div>
+                  <div class="timeline-body">
+                    <span class="timeline-title">Ecosystem Init</span>
+                    <span class="timeline-desc">Database listeners verified successfully.</span>
+                    <span class="timeline-time">Just now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SECTION 2: PLAYS MANAGEMENT -->
+        <section id="section-plays" class="content-section hidden">
+          <div class="section-actions-bar glass-card">
+            <p class="section-desc">Manage main plays. These form the primary nodes containing multiple scenes for visual storytelling.</p>
+            <button class="btn btn-gold btn-action" id="btn-add-play-modal">
+              <i class="fa-solid fa-plus"></i> Add New Play
+            </button>
+          </div>
+          <div class="data-grid mt-2" id="grid-plays">
+            <div class="skeleton-loader w-100 h-200"></div>
+          </div>
+        </section>
+
+        <!-- SECTION 3: SCENES MANAGEMENT -->
+        <section id="section-scenes" class="content-section hidden">
+          <div class="section-actions-bar glass-card flex-between">
+            <div class="filter-controls">
+              <label for="filter-scene-play">Filter by Play:</label>
+              <select id="filter-scene-play" class="select-gold">
+                <option value="all">-- Loading Plays --</option>
+              </select>
+            </div>
+            <button class="btn btn-gold btn-action" id="btn-add-scene-modal">
+              <i class="fa-solid fa-plus"></i> Add New Scene
+            </button>
+          </div>
+          <div class="data-grid mt-2" id="grid-scenes">
+            <div class="skeleton-loader w-100 h-200"></div>
+          </div>
+        </section>
+
+        <!-- SECTION 4: PUPPETS CATALOG -->
+        <section id="section-puppets" class="content-section hidden">
+          <div class="section-actions-bar glass-card">
+            <p class="section-desc">Register puppet designs. Provide descriptions, symbolism, and powers for custom mobile identification.</p>
+            <button class="btn btn-gold btn-action" id="btn-add-puppet-modal">
+              <i class="fa-solid fa-plus"></i> Register New Puppet
+            </button>
+          </div>
+          <div class="data-grid mt-2 grid-cols-4" id="grid-puppets">
+            <div class="skeleton-loader w-100 h-200"></div>
+          </div>
+        </section>
+
+        <!-- SECTION 5: ARTIST CONNECT -->
+        <section id="section-artists" class="content-section hidden">
+          <div class="section-actions-bar glass-card">
+            <p class="section-desc">Manage regional leather artisans of Karnataka to promote their workshops, contacts, and livelihoods.</p>
+            <button class="btn btn-gold btn-action" id="btn-add-artist-modal">
+              <i class="fa-solid fa-plus"></i> Add Master Artisan
+            </button>
+          </div>
+          <div class="data-grid mt-2" id="grid-artists">
+            <div class="skeleton-loader w-100 h-200"></div>
+          </div>
+        </section>
+
+        <!-- SECTION 6: HISTORY FEED -->
+        <section id="section-history" class="content-section hidden">
+          <div class="section-actions-bar glass-card">
+            <p class="section-desc">Add chronological historical stories and feed items about puppet theatre arts.</p>
+            <button class="btn btn-gold btn-action" id="btn-add-history-modal">
+              <i class="fa-solid fa-plus"></i> Add History Post
+            </button>
+          </div>
+          <div class="data-grid mt-2" id="grid-history">
+            <div class="skeleton-loader w-100 h-200"></div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- UNIVERSAL SLIDE OVERLAY FORM DIALOG -->
+  <div id="universal-drawer" class="drawer hidden">
+    <div class="drawer-overlay" id="drawer-overlay-btn"></div>
+    <div class="drawer-panel glass-card">
+      <div class="drawer-header">
+        <h2 id="drawer-title">Add Element</h2>
+        <button class="btn-icon" id="btn-close-drawer"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="drawer-body">
+        <form id="universal-form">
+          <!-- Dynamic Form Fields will be inserted here dynamically -->
+          <div id="dynamic-fields-container"></div>
+
+          <!-- Helper Progress Bar -->
+          <div class="progress-bar-container hidden" id="upload-progress-container">
+            <div class="progress-info">
+              <span>Uploading Media...</span>
+              <span id="upload-progress-percent">0%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill" id="upload-progress-fill"></div>
+            </div>
+          </div>
+
+          <div class="drawer-actions mt-3">
+            <button type="button" class="btn btn-danger-outline" id="btn-cancel-drawer">Cancel</button>
+            <button type="submit" class="btn btn-gold" id="btn-submit-drawer">
+              <span id="btn-submit-label">Save Changes</span>
+              <span class="spinner hidden"></span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase Compat Library Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+  
+  <!-- Core SPA App Javascript -->
+  <script src="app.js"></script>
+</body>
+</html>

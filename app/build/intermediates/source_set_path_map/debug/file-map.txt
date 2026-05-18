@@ -1,0 +1,58 @@
+com.togalugombe.aiguide.app-recyclerview-1.3.2-0 /Users/shashanksk/.gradle/caches/transforms-3/0f27146e3b0c766bad9766ebba448326/transformed/recyclerview-1.3.2/res
+com.togalugombe.aiguide.app-navigation-common-2.7.7-1 /Users/shashanksk/.gradle/caches/transforms-3/18d7175ac2f16ee50b1bb54adae1e8f5/transformed/navigation-common-2.7.7/res
+com.togalugombe.aiguide.app-browser-1.4.0-2 /Users/shashanksk/.gradle/caches/transforms-3/259dc9e205dda56f0e4ffc698642b765/transformed/browser-1.4.0/res
+com.togalugombe.aiguide.app-lifecycle-process-2.7.0-3 /Users/shashanksk/.gradle/caches/transforms-3/26f853ec704b250fed3e989227c97c2c/transformed/lifecycle-process-2.7.0/res
+com.togalugombe.aiguide.app-lifecycle-livedata-core-ktx-2.7.0-4 /Users/shashanksk/.gradle/caches/transforms-3/2e4f0f4d08882536fbef7a5c57b94ba3/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.togalugombe.aiguide.app-navigation-ui-2.7.7-5 /Users/shashanksk/.gradle/caches/transforms-3/2f018f09622f934637b1e09d00e218c3/transformed/navigation-ui-2.7.7/res
+com.togalugombe.aiguide.app-customview-poolingcontainer-1.0.0-6 /Users/shashanksk/.gradle/caches/transforms-3/358056d6b14fd935f31216d87a3d7cd1/transformed/customview-poolingcontainer-1.0.0/res
+com.togalugombe.aiguide.app-lifecycle-runtime-2.7.0-7 /Users/shashanksk/.gradle/caches/transforms-3/3b59edb1f426924bf1c5478d36c4a434/transformed/lifecycle-runtime-2.7.0/res
+com.togalugombe.aiguide.app-firebase-common-20.4.2-8 /Users/shashanksk/.gradle/caches/transforms-3/3e188ec20be86d93c761bf40f99d081f/transformed/firebase-common-20.4.2/res
+com.togalugombe.aiguide.app-appcompat-resources-1.6.1-9 /Users/shashanksk/.gradle/caches/transforms-3/4094cf4dd3bfb7c85f9684d8e9352f68/transformed/appcompat-resources-1.6.1/res
+com.togalugombe.aiguide.app-constraintlayout-2.1.4-10 /Users/shashanksk/.gradle/caches/transforms-3/4770e0b303981699290f3eb0ea82dcb8/transformed/constraintlayout-2.1.4/res
+com.togalugombe.aiguide.app-coil-base-2.5.0-11 /Users/shashanksk/.gradle/caches/transforms-3/49c47434910f4b3d1bb0b454346c7833/transformed/coil-base-2.5.0/res
+com.togalugombe.aiguide.app-lifecycle-livedata-2.7.0-12 /Users/shashanksk/.gradle/caches/transforms-3/4bb4accd86e45f87e3bb7320930f7346/transformed/lifecycle-livedata-2.7.0/res
+com.togalugombe.aiguide.app-navigation-runtime-2.7.7-13 /Users/shashanksk/.gradle/caches/transforms-3/52a65918100f6cde3aba2541f6d988e1/transformed/navigation-runtime-2.7.7/res
+com.togalugombe.aiguide.app-drawerlayout-1.1.1-14 /Users/shashanksk/.gradle/caches/transforms-3/596a5d399ae0e07b59cb36858120e837/transformed/drawerlayout-1.1.1/res
+com.togalugombe.aiguide.app-viewpager2-1.1.0-beta02-15 /Users/shashanksk/.gradle/caches/transforms-3/6255df1ec1bab39322057a6e40d5ce4b/transformed/viewpager2-1.1.0-beta02/res
+com.togalugombe.aiguide.app-profileinstaller-1.3.1-16 /Users/shashanksk/.gradle/caches/transforms-3/63513bcd2534d3aa5c97c9b923faea89/transformed/profileinstaller-1.3.1/res
+com.togalugombe.aiguide.app-play-services-basement-18.3.0-17 /Users/shashanksk/.gradle/caches/transforms-3/63e02e0ffce1463e7a508a8294bef77d/transformed/play-services-basement-18.3.0/res
+com.togalugombe.aiguide.app-cardview-1.0.0-18 /Users/shashanksk/.gradle/caches/transforms-3/698252b886e47b08b8c611435124172f/transformed/cardview-1.0.0/res
+com.togalugombe.aiguide.app-core-runtime-2.2.0-19 /Users/shashanksk/.gradle/caches/transforms-3/69fb346bd0dd31207f797d41682c54bc/transformed/core-runtime-2.2.0/res
+com.togalugombe.aiguide.app-navigation-ui-ktx-2.7.7-20 /Users/shashanksk/.gradle/caches/transforms-3/6ce356a92364279ddc2dfd6453f3cab1/transformed/navigation-ui-ktx-2.7.7/res
+com.togalugombe.aiguide.app-core-1.12.0-21 /Users/shashanksk/.gradle/caches/transforms-3/790e73cefa613367d954d73eddb5791b/transformed/core-1.12.0/res
+com.togalugombe.aiguide.app-lifecycle-viewmodel-ktx-2.7.0-22 /Users/shashanksk/.gradle/caches/transforms-3/7dd92b5673c2aff503eb974e78fce52d/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.togalugombe.aiguide.app-startup-runtime-1.1.1-23 /Users/shashanksk/.gradle/caches/transforms-3/825a986bc0f9b08327e8342eefa2da48/transformed/startup-runtime-1.1.1/res
+com.togalugombe.aiguide.app-navigation-common-ktx-2.7.7-24 /Users/shashanksk/.gradle/caches/transforms-3/8609a14fee1ab749ef9e6169a5f7a37d/transformed/navigation-common-ktx-2.7.7/res
+com.togalugombe.aiguide.app-fragment-1.6.2-25 /Users/shashanksk/.gradle/caches/transforms-3/93bd25be4ab952dcc2dbd9ed1976f211/transformed/fragment-1.6.2/res
+com.togalugombe.aiguide.app-navigation-runtime-ktx-2.7.7-26 /Users/shashanksk/.gradle/caches/transforms-3/9ad7c379162ad7af0d8c7ec0bbff262f/transformed/navigation-runtime-ktx-2.7.7/res
+com.togalugombe.aiguide.app-emoji2-views-helper-1.2.0-27 /Users/shashanksk/.gradle/caches/transforms-3/9b502f4cecaef6eaa96b81e99e7f3dba/transformed/emoji2-views-helper-1.2.0/res
+com.togalugombe.aiguide.app-navigation-fragment-ktx-2.7.7-28 /Users/shashanksk/.gradle/caches/transforms-3/9f452e1d5171dae32a640d77e5d90802/transformed/navigation-fragment-ktx-2.7.7/res
+com.togalugombe.aiguide.app-lifecycle-viewmodel-savedstate-2.7.0-29 /Users/shashanksk/.gradle/caches/transforms-3/a1d420212991297df260b5f31bae3339/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.togalugombe.aiguide.app-transition-1.4.1-30 /Users/shashanksk/.gradle/caches/transforms-3/a450e79adc19bce4dd10bd0f068aaad0/transformed/transition-1.4.1/res
+com.togalugombe.aiguide.app-slidingpanelayout-1.2.0-31 /Users/shashanksk/.gradle/caches/transforms-3/a4ee0ae630c8cf36f63ca92c8e80a36e/transformed/slidingpanelayout-1.2.0/res
+com.togalugombe.aiguide.app-lifecycle-livedata-core-2.7.0-32 /Users/shashanksk/.gradle/caches/transforms-3/a5c63fba01f5a3ffbe03598a1f0d3538/transformed/lifecycle-livedata-core-2.7.0/res
+com.togalugombe.aiguide.app-annotation-experimental-1.3.0-33 /Users/shashanksk/.gradle/caches/transforms-3/a8959121d1b8a638351d38abc91bc09c/transformed/annotation-experimental-1.3.0/res
+com.togalugombe.aiguide.app-navigation-fragment-2.7.7-34 /Users/shashanksk/.gradle/caches/transforms-3/ac581b87a73ca49d297a8d5726928ae6/transformed/navigation-fragment-2.7.7/res
+com.togalugombe.aiguide.app-savedstate-1.2.1-35 /Users/shashanksk/.gradle/caches/transforms-3/b10e53986d1f33c2dbad4bd909d9df30/transformed/savedstate-1.2.1/res
+com.togalugombe.aiguide.app-emoji2-1.2.0-36 /Users/shashanksk/.gradle/caches/transforms-3/b520f92efd296347dfc16a264eb4aff9/transformed/emoji2-1.2.0/res
+com.togalugombe.aiguide.app-window-1.0.0-37 /Users/shashanksk/.gradle/caches/transforms-3/c87bf2dee2501394b8e0089f419467c7/transformed/window-1.0.0/res
+com.togalugombe.aiguide.app-lifecycle-livedata-ktx-2.7.0-38 /Users/shashanksk/.gradle/caches/transforms-3/ca354a9caea57a6a57e9dff637025fa7/transformed/lifecycle-livedata-ktx-2.7.0/res
+com.togalugombe.aiguide.app-activity-ktx-1.8.0-39 /Users/shashanksk/.gradle/caches/transforms-3/ccda509fef229a83d99bf6557ed6d5af/transformed/activity-ktx-1.8.0/res
+com.togalugombe.aiguide.app-lifecycle-runtime-ktx-2.7.0-40 /Users/shashanksk/.gradle/caches/transforms-3/d5368fff8b448bad1ca9c7162993af72/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.togalugombe.aiguide.app-material-1.11.0-41 /Users/shashanksk/.gradle/caches/transforms-3/d7da142905c973392b52bce2976b36ac/transformed/material-1.11.0/res
+com.togalugombe.aiguide.app-savedstate-ktx-1.2.1-42 /Users/shashanksk/.gradle/caches/transforms-3/db1f798bee95600e41eea77cff9b0ea0/transformed/savedstate-ktx-1.2.1/res
+com.togalugombe.aiguide.app-play-services-base-18.1.0-43 /Users/shashanksk/.gradle/caches/transforms-3/e234a33e07a3debefc7aeaf2991e4fda/transformed/play-services-base-18.1.0/res
+com.togalugombe.aiguide.app-core-ktx-1.12.0-44 /Users/shashanksk/.gradle/caches/transforms-3/e2e62d0a77abff0fd645f358c08f4e90/transformed/core-ktx-1.12.0/res
+com.togalugombe.aiguide.app-lifecycle-viewmodel-2.7.0-45 /Users/shashanksk/.gradle/caches/transforms-3/e4ddf11367cece731d4847286285d54f/transformed/lifecycle-viewmodel-2.7.0/res
+com.togalugombe.aiguide.app-appcompat-1.6.1-46 /Users/shashanksk/.gradle/caches/transforms-3/e6757ce7348fbf949cfa213b7c4bd8e6/transformed/appcompat-1.6.1/res
+com.togalugombe.aiguide.app-fragment-ktx-1.6.2-47 /Users/shashanksk/.gradle/caches/transforms-3/ea634ef6bc2b6ae3aa75daf2e65a6658/transformed/fragment-ktx-1.6.2/res
+com.togalugombe.aiguide.app-activity-1.8.0-48 /Users/shashanksk/.gradle/caches/transforms-3/eb8bffe51e4a36569ce85ee98b583869/transformed/activity-1.8.0/res
+com.togalugombe.aiguide.app-coordinatorlayout-1.1.0-49 /Users/shashanksk/.gradle/caches/transforms-3/f879cb62c44ce9fe0809db81258f2784/transformed/coordinatorlayout-1.1.0/res
+com.togalugombe.aiguide.app-pngs-50 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/build/generated/res/pngs/debug
+com.togalugombe.aiguide.app-res-51 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/build/generated/res/processDebugGoogleServices
+com.togalugombe.aiguide.app-resValues-52 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/build/generated/res/resValues/debug
+com.togalugombe.aiguide.app-packageDebugResources-53 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.togalugombe.aiguide.app-packageDebugResources-54 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.togalugombe.aiguide.app-merged_res-55 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/build/intermediates/merged_res/debug
+com.togalugombe.aiguide.app-debug-56 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/src/debug/res
+com.togalugombe.aiguide.app-main-57 /Users/shashanksk/Doc/Projects/Togalu Gombe/app/src/main/res

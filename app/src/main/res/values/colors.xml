@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cultural Dark Shadow Theater Palette -->
+    <color name="bg_dark">#0C0C0E</color>
+    <color name="surface_dark">#18181D</color>
+    <color name="primary_gold">#D4AF37</color>
+    <color name="primary_gold_hover">#B89327</color>
+    <color name="secondary_amber">#E67E22</color>
+    <color name="accent_crimson">#C0392B</color>
+    
+    <!-- Neutral colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#F5F5F7</color>
+    <color name="text_muted">#8E8E9C</color>
+    <color name="divider_line">#25252D</color>
+</resources>

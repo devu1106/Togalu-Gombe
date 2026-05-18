@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/item_play.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/item_play.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_scenes.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_scenes.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_register.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/item_scene.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/item_scene.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_splash.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_profile.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/item_featured_play_home.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/item_featured_play_home.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/item_puppet.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/item_puppet.xml"
+    },
+    {
+        "merged": "com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_splash.xml",
+        "source": "com.togalugombe.aiguide.app-main-57:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_history_feed.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_history_feed.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_puppet_details.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_puppet_details.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_puppet_scan.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_puppet_scan.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_live_assist.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_live_assist.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/item_history.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/item_history.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_login.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_scene_details.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_scene_details.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/item_artist.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/item_artist.xml"
+    },
+    {
+        "merged": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-mergeDebugResources-54:/layout/fragment_artist_connect.xml",
+        "source": "/Users/shashanksk/.gradle/daemon/8.5/com.togalugombe.aiguide.app-main-57:/layout/fragment_artist_connect.xml"
+    }
+]

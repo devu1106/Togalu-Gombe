@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <!-- 1. SPLASH SCREEN -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.togalugombe.aiguide.ui.splash.SplashFragment"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splash_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- 2. LOGIN SCREEN -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.togalugombe.aiguide.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- 3. REGISTER SCREEN -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.togalugombe.aiguide.ui.auth.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_register_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- 4. HOME SCREEN -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.togalugombe.aiguide.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_live_assist"
+            app:destination="@id/liveAssistFragment" />
+        <action
+            android:id="@+id/action_home_to_puppet_scan"
+            app:destination="@id/puppetScanFragment" />
+        <action
+            android:id="@+id/action_home_to_artist_connect"
+            app:destination="@id/artistConnectFragment" />
+
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <!-- 5. LIVE ASSIST SCREEN (PLAYS) -->
+    <fragment
+        android:id="@+id/liveAssistFragment"
+        android:name="com.togalugombe.aiguide.ui.plays.LiveAssistFragment"
+        android:label="Plays"
+        tools:layout="@layout/fragment_live_assist">
+        <action
+            android:id="@+id/action_live_assist_to_scenes"
+            app:destination="@id/scenesFragment" />
+    </fragment>
+
+    <!-- 6. SCENES SCREEN -->
+    <fragment
+        android:id="@+id/scenesFragment"
+        android:name="com.togalugombe.aiguide.ui.plays.ScenesFragment"
+        android:label="Scenes"
+        tools:layout="@layout/fragment_scenes">
+        <argument
+            android:name="playId"
+            app:argType="string" />
+        <argument
+            android:name="playTitle"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_scenes_to_details"
+            app:destination="@id/sceneDetailsFragment" />
+    </fragment>
+
+    <!-- 7. SCENE DETAILS SCREEN -->
+    <fragment
+        android:id="@+id/sceneDetailsFragment"
+        android:name="com.togalugombe.aiguide.ui.plays.SceneDetailsFragment"
+        android:label="Scene Details"
+        tools:layout="@layout/fragment_scene_details">
+        <argument
+            android:name="sceneId"
+            app:argType="string" />
+    </fragment>
+
+    <!-- 8. PUPPET SCAN SCREEN -->
+    <fragment
+        android:id="@+id/puppetScanFragment"
+        android:name="com.togalugombe.aiguide.ui.puppets.PuppetScanFragment"
+        android:label="Puppets"
+        tools:layout="@layout/fragment_puppet_scan">
+        <action
+            android:id="@+id/action_puppet_scan_to_details"
+            app:destination="@id/puppetDetailsFragment" />
+    </fragment>
+
+    <!-- 9. PUPPET DETAILS SCREEN -->
+    <fragment
+        android:id="@+id/puppetDetailsFragment"
+        android:name="com.togalugombe.aiguide.ui.puppets.PuppetDetailsFragment"
+        android:label="Puppet Details"
+        tools:layout="@layout/fragment_puppet_details">
+        <argument
+            android:name="puppetId"
+            app:argType="string" />
+    </fragment>
+
+    <!-- 10. ARTIST CONNECT SCREEN -->
+    <fragment
+        android:id="@+id/artistConnectFragment"
+        android:name="com.togalugombe.aiguide.ui.artists.ArtistConnectFragment"
+        android:label="Artisans"
+        tools:layout="@layout/fragment_artist_connect" />
+
+
+    <!-- 12. PROFILE SCREEN -->
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.togalugombe.aiguide.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

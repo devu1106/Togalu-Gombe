@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Togalu Gombe AI Guide</string>
+    
+    <!-- Navigation Titles -->
+    <string name="title_home">Dashboard</string>
+    <string name="title_live_assist">Live Assist</string>
+    <string name="title_puppet_scan">Puppet Scan</string>
+    <string name="title_artist_connect">Artisans</string>
+    <string name="title_history">History Feed</string>
+    <string name="title_profile">My Profile</string>
+    
+    <!-- Validation and placeholders -->
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="error_empty_fields">All fields must be filled</string>
+    <string name="logout_confirmation">Are you sure you want to log out?</string>
+</resources>

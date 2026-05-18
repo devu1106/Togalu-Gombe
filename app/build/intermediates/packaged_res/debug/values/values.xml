@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_crimson">#C0392B</color>
+    <color name="bg_dark">#0C0C0E</color>
+    <color name="black">#000000</color>
+    <color name="divider_line">#25252D</color>
+    <color name="primary_gold">#D4AF37</color>
+    <color name="primary_gold_hover">#B89327</color>
+    <color name="secondary_amber">#E67E22</color>
+    <color name="surface_dark">#18181D</color>
+    <color name="text_muted">#8E8E9C</color>
+    <color name="text_primary">#F5F5F7</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Togalu Gombe AI Guide</string>
+    <string name="error_empty_fields">All fields must be filled</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+    <string name="gcm_defaultSenderId" translatable="false">711091015135</string>
+    <string name="google_api_key" translatable="false">AIzaSyBehH8uM42NjhhU3K8LAAK7eKDU5lojCMk</string>
+    <string name="google_app_id" translatable="false">1:711091015135:android:e8496a1096957ce4ea886a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBehH8uM42NjhhU3K8LAAK7eKDU5lojCMk</string>
+    <string name="google_storage_bucket" translatable="false">togalu-gombe-ai-guide.firebasestorage.app</string>
+    <string name="logout_confirmation">Are you sure you want to log out?</string>
+    <string name="project_id" translatable="false">togalu-gombe-ai-guide</string>
+    <string name="title_artist_connect">Artisans</string>
+    <string name="title_history">History Feed</string>
+    <string name="title_home">Dashboard</string>
+    <string name="title_live_assist">Live Assist</string>
+    <string name="title_profile">My Profile</string>
+    <string name="title_puppet_scan">Puppet Scan</string>
+    <style name="Theme.TogaluGombe" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary_gold</item>
+        <item name="colorOnPrimary">@color/bg_dark</item>
+        <item name="colorSecondary">@color/secondary_amber</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        
+        <item name="android:windowBackground">@color/bg_dark</item>
+        
+        
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+        
+        
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

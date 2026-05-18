@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.togalugombe.aiguide.app-mergeDebugResources-53:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/shashanksk/.gradle/caches/transforms-3/e6757ce7348fbf949cfa213b7c4bd8e6/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

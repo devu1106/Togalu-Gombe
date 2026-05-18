@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme (Material 3 with default Dark obsidian aesthetics) -->
+    <style name="Theme.TogaluGombe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_gold</item>
+        <item name="colorOnPrimary">@color/bg_dark</item>
+        <item name="colorSecondary">@color/secondary_amber</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <!-- Window background configuration -->
+        <item name="android:windowBackground">@color/bg_dark</item>
+        
+        <!-- Text color configurations -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+        
+        <!-- Navigation bar and Status bar configurations -->
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
